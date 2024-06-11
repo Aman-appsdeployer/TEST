@@ -1,0 +1,9 @@
+{
+    "version" : 2,
+    "builds":[
+        {"src": "space.py", "use":"@vercel/python"}
+    ],
+    "routes":[
+        {"src":"/(.*)", "dest": "space.py"}
+    ]
+}
